@@ -17,19 +17,19 @@
     <a href= "search.html">Projects</a>
     <a href= "login.html">Login</a>
     <a href= "register.html">Register</a>
-    <a href="createproject.html">Submit</a>
+    
     
     </nav>
     </header>
     <main>
 <h2>Submit Project</h2>
-<header>Project Name:</header><input type="text"><br><br>
-<header>Project Abstract:</header><input type="text"><br><br>
-<header>Authors:</header><input type="text"><br><br>
-<header>Tags(s):</header><input type="text"><br><br>
+<label for="name"><header>Project Name:</header></label> <input type="text" name="name"/><br></br>
+<label for="abstract"><header>Project Abstract: </header></label><textarea type="text" name="abstract"></textarea><br></br>
+<label for="authors"><header>Authors:</header></label><input type="text" name="authors"/><br></br>
+<label for="tags"><header>Tags(s): </header></label><input type="text" name="tags"/><br></br>
 <p></p>
 <form action="submitProject">
-    <input type=Submit value="Submit">
+    <input type="submit" value="Submit">
     </form>
     </main>
 </body>

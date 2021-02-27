@@ -16,7 +16,7 @@
     <a href= "search.html">Projects</a>
     <a href= "login.html">Login</a>
     <a href= "register.html">Register</a>
-    <a href="createproject.html">Submit</a>
+    
         </nav>
         </header>
         <main>
@@ -25,11 +25,11 @@
 <h3>Search Project By</h3>
 <form action="searchForm">
 <label for="project Name,Authors,Abstract,Tags"> </label>
-<input type="text" name="project Name,Authors,Abstract,Tags" placeholder=" project Name,Authors,Abstract,Tags"></form>
-<p></p>
+<input type="text" name="searchTerm" placeholder=" project Name,Authors,Abstract,Tags"></form>
+<p></p></form>
 <header>Search By:</header><form>
 
-<select for="name" id="Name">
+<select for="searchType" id="searchType">
 <option value="Name">Name</option>
 <option value="Abstract">Abstract</option>
 <option value="Authors">Authors</option>
@@ -37,7 +37,7 @@
 </select><br><br>
 
 </form>
-<input type="Submit" value="Search"><br><br>
+<input type="submit" value="Search"><br><br>
 <h2>Search Result</h2>
 <div>
 <h3>Project 1</h3>
@@ -48,8 +48,8 @@
 <li>Authors: Favour chidinma, Khafi Grace</li>
 <li>Tags: #blprt,#Gisw</li>
 <li>Year: 2018</li>
-</div>
 </ul>
+</div>
 </main>
 </body>
 </html>

@@ -17,7 +17,7 @@
     <a href= "search.html">Projects</a>
     <a href= "login.html">Login</a>
     <a href= "register.html">Register</a>
-    <a href="createproject.html">Submit</a>
+    
     </nav>
     </header>
     <main>
@@ -28,13 +28,17 @@
 <li>Last Updated: 00/01/0001</li>
 </ul>
 <h2>Edit Project</h2>
-<header>Project Name:</header><input type="text"><br><br>
-<header>Project Abstract:</header><input type="text"><br><br>
-<header>Authors:</header><input type="text"><br><br>
-<header>Tags(s):</header><input type="text"><br><br>
-<header>Upload File</header> <input type=submit value="Choose File">No file chosen</p>
-<form action="editProject">
-<input type="Submit" value="Submit">
+
+<form action="editproject">
+<label for="name"><header> Project Name:</header></label> <input type="text" name="name"/><p></p>
+<label for="abstract"><header> Project Abstract:</header></label> <textarea type="text" name="abstract"></textarea><p></p>
+<label for="authors"><header> Authors:</header></label><input type="text" name="authors"/><p></p>
+<label for="tags"><header> Tags(s):</header></label><input type="text" name="tags"/><P></P>
+<label for="projectFile"><header> Upload File: </header></label> 
+
+ <input type=submit value="Choose File">No file chosen <p></p>
+
+<input type="submit" value="Submit">
 </form>
 </main>
 </body>
