@@ -31,14 +31,14 @@
 </ul>
 <h2>Edit Project</h2>
 
-<form action="editproject">
-<label for="name"><header> Project Name:</header></label> <input type="text" name="name"/><p></p>
-<label for="abstract"><header> Project Abstract:</header></label> <textarea type="text" name="abstract"></textarea><p></p>
-<label for="authors"><header> Authors:</header></label><input type="text" name="authors"/><p></p>
-<label for="tags"><header> Tags(s):</header></label><input type="text" name="tags"/><P></P>
-<label for="projectFile"><header> Upload File: </header></label> 
+<form name="editproject">
+<label for="name"> Project Name:</label> <input type="text" name="name"/>
+<label for="abstract"> Project Abstract:</label> <textarea type="text" name="abstract"></textarea><p></p>
+<label for="authors"> Authors:</label><input type="text" name="authors"/><p>
+<label for="tags"> Tags(s):</label><input type="text" name="tags"/>
+<label for="projectFile">Upload File:</label> 
 
- <input type=submit value="Choose File">No file chosen <p></p>
+ <input type="file" name="projectFile">
 
 <input type="submit" value="Submit">
 </form>
